@@ -1,6 +1,10 @@
 react2html
 ==========
 
+By [epistoli](https://episto.li)
+
+[![Circle CI](https://circleci.com/gh/Epistoli/react2html/tree/master.svg?style=svg)](https://circleci.com/gh/Epistoli/react2html/tree/master)
+
 Render React components server-side.
 
 Install globally with NPM:
