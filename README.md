@@ -1,22 +1,23 @@
-react2html
-==========
-
-By [epistoli](https://episto.li)
-
-[![Circle CI](https://circleci.com/gh/Epistoli/react2html/tree/master.svg?style=svg)](https://circleci.com/gh/Epistoli/react2html/tree/master)
+# react2html
 
 Render React components server-side.
 
+[![Circle CI](https://circleci.com/gh/Epistoli/react2html/tree/master.svg?style=svg)](https://circleci.com/gh/Epistoli/react2html/tree/master)
+
+By [epistoli](https://episto.li).
+
+* * * * 
+
 Install globally with NPM:
 
-```
+```shell
 npm install -g react2html
 ```
 
 The `help` flag should get you started:
 
-```
-$ react2html --help
+```shell
+react2html --help
   Usage: react2html [options] <file ...>
 
   Options:
@@ -32,7 +33,7 @@ Example usage
 
 Say you have a little JSX component `foo.jsx`:
 
-```
+```jsx
 import React, {Component} from 'react';
 
 export default ({who}) => (
@@ -44,7 +45,7 @@ export default ({who}) => (
 
 To render it to stdout:
 
-```
+```shell
 react2html -c `pwd`/foo -p '{"who": "world"}'
 ```
 
