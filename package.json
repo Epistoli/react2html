@@ -1,0 +1,44 @@
+{
+    "name": "react2html",
+    "version": "0.1.0",
+    "engine": "node >= 4",
+    "author": {
+        "name"  : "Maxim Bénadon",
+        "email" : "maxim@episto.li",
+        "url"   : "https://github.com/shakaman"
+    },
+    "contributors": [
+        {
+            "name"  : "Arnaud Berthomier",
+            "email" : "arnaud@episto.li",
+            "url"   : "http://cypr.io"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "babel-register": "^6.2.0",
+        "commander": "^2.9.0",
+        "react": "^0.14.2",
+        "react-dom": "^0.14.2"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/gulp build",
+        "test": "./node_modules/.bin/mocha --compilers js:babel-register --recursive spec/"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "react2html": "./dist/service.js"
+    },
+    "devDependencies": {
+        "babel-preset-es2015": "^6.1.18",
+        "babel-preset-react": "^6.1.18",
+        "gulp": "^3.9.0",
+        "gulp-babel": "^6.1.0",
+        "gulp-sourcemaps": "^1.6.0",
+        "gulp-mocha": "^2.2.0",
+        "mocha": "^2.3.4",
+        "react-addons-test-utils": "^0.14.3",
+        "enzyme": "^1.1.0",
+        "chai": "^3.4.1"
+    }
+}
