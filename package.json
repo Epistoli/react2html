@@ -31,6 +31,7 @@
     "react2html": "./dist/service.js"
   },
   "devDependencies": {
+    "react-addons-test-utils": "^15.0.1",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.1.18",
     "gulp": "^3.9.0",
@@ -38,8 +39,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-mocha": "^2.2.0",
     "mocha": "^2.3.4",
-    "react-addons-test-utils": "^0.14.3",
-    "enzyme": "^1.1.0",
+    "enzyme": "^2.2.0",
     "chai": "^3.4.1"
   }
 }
