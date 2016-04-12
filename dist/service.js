@@ -29,7 +29,7 @@ require('babel-register')({
   presets: ['es2015', 'react']
 });
 
-_commander2.default.version('0.2').usage('[options] <file ...>').option('-c, --component <path>', 'React component path').option('-p, --props <string>', 'Component properties (JSON)').parse(process.argv);
+_commander2.default.version('0.2.1').usage('[options] <file ...>').option('-c, --component <path>', 'React component path').option('-p, --props <string>', 'Component properties (JSON)').parse(process.argv);
 
 var path = false,
     props = false;
