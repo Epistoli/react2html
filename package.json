@@ -19,8 +19,8 @@
   "dependencies": {
     "babel-register": "^6.2.0",
     "commander": "^2.9.0",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
   },
   "scripts": {
     "build": "gulp build",
