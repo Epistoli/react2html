@@ -12,7 +12,7 @@ require('babel-register')({
 });
 
 Program
-  .version('0.1')
+  .version('0.2')
   .usage('[options] <file ...>')
   .option('-c, --component <path>', 'React component path')
   .option('-p, --props <string>',   'Component properties (JSON)')
